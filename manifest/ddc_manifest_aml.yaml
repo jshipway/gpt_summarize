@@ -22,7 +22,7 @@ spec:
           command: ["/bin/sh", "-c"]
           args:
             - git config --global http.sslVerify "false" ;
-              git clone https://github.com/louisguilbaud/AML_DDC.git /tmp/ddc-data/ ;
+              git clone https://github.com/jshipway/gpt_summarize.git /tmp/ddc-data/ ;
           volumeMounts:
             - mountPath: /tmp/ddc-data
               name: ddc-data
